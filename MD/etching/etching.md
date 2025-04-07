@@ -40,8 +40,8 @@ flowchart
 	n41@{ shape: "circle", label: "Нанесение" }
 	n16 --- n41
 	n15 --- n30@{ shape: "circle", label: "Экспонирование" }
-		click n30 "https://github.com/ufrs12/PCB-making/blob/main/expo.md"
+		click n30 "https://github.com/ufrs12/PCB-making/blob/main/MD/expo/expo.md"
 	n15 --- n33@{ shape: "circle", label: "Проявка" }
 	n16 --- n34@{ shape: "circle", label: "Экспонирование" }
-		click n34 "https://github.com/ufrs12/PCB-making/blob/main/expo.md"
+		click n34 "https://github.com/ufrs12/PCB-making/blob/main/MD/expo/expo.md"
 	n16 --- n35@{ shape: "circle", label: "Проявка" }

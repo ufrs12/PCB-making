@@ -20,7 +20,7 @@ flowchart
 	n4 --- n26@{ shape: "stadium", label: "Хранение стеклотекстолита" }
 	n4 --- n23@{ shape: "stadium", label: "Раскрой стеклотекстолита" }
 	n4 --- n9@{ shape: "stadium", label: "Формирование медного слоя" }
-		click n9 "https://github.com/ufrs12/PCB-making/blob/main/Cu_layer.md"
+		click n9 "https://github.com/ufrs12/PCB-making/blob/main/MD/cu_layer/Cu_layer.md"
 
 	n9 --- n13["Паяльная маска"]
 	n9 --- n14["Без паяльной маски"]
