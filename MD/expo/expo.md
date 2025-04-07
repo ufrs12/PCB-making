@@ -4,6 +4,7 @@
 flowchart
 	n30@{ shape: "circle", label: "Экспонирование" }
 	n30 --- n33["Лазерное"]
+		click n33 "https://github.com/ufrs12/PCB-making/blob/main/MD/expo/laser/laser.md"
 	n30 --- n34["Фотошаблон"]
 	n30 --- n35["LCD-матрица"]
 	n33 --- n36["Вектор"]
