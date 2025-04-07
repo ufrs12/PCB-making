@@ -17,7 +17,7 @@ flowchart
 	n7 --- n25@{ shape: "circle", label: "Приобретение" }
 	n7 --- n26@{ shape: "circle", label: "Хранение" }
 	n7 --- n23@{ shape: "circle", label: "Раскрой" }
-	n7 --- n9@{ shape: "diam", label: "Травление" }
+	n7 --- n9["Травление"]
 		click n9 "https://github.com/ufrs12/PCB-making/blob/main/etching.md"
 	n7 --- n10["Фрезерование"]
 	n7 --- n11["Сжигание меди лазером"]
