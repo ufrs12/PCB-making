@@ -1,7 +1,7 @@
 # PCB-making
 Дорожная карта изготовления печатных плат
 
-flowchart
+flowchart TB
 	n1@{ shape: "circle", label: "Circle" }
 	n1@{ shape: "circle", label: "Печатная плата" } --- n2["Жесткая"]
 	n1@{ shape: "diam", label: "Печатная плата" } --- n3["Гибкая"]
