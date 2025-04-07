@@ -1,6 +1,7 @@
 # PCB-making
 Дорожная карта изготовления печатных плат
 
+```mermaid
 flowchart TB
 	n1@{ shape: "circle", label: "Circle" }
 	n1@{ shape: "circle", label: "Печатная плата" } --- n2["Жесткая"]
