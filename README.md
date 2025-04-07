@@ -2,10 +2,9 @@
 Дорожная карта изготовления печатных плат
 
 ```mermaid
-flowchart TB
-	n1@{ shape: "circle", label: "Circle" }
-	n1@{ shape: "circle", label: "Печатная плата" } --- n2["Жесткая"]
-	n1@{ shape: "diam", label: "Печатная плата" } --- n3["Гибкая"]
+flowchart
+	n1@{ "Печатная плата" } --- n2["Жесткая"]
+	n1@{ label: "Печатная плата" } --- n3["Гибкая"]
 	n2 --- n4["Односторонняя"]
 	n2 --- n5["Двухсторонняя"]
 	n2 --- n6["Многослойная"]
@@ -33,7 +32,7 @@ flowchart TB
 	n9 --- n18
 	n18 --- n12
 	n18 --- n17
-	n18 --- n13
+	n18 --- n13["ЛУТ"]
 	n18 --- n14
 	n19@{ shape: "circle", label: "Травление" }
 	n9 --- n19
@@ -44,22 +43,32 @@ flowchart TB
 	n22
 	n9 --- n22@{ shape: "circle", label: "Удалениезащитного слоя" }
 	n22@{ shape: "circle", label: "Удаление защиты" }
+		n7 --- n25@{ shape: "circle", label: "Приобретение" }
+	n26@{ shape: "circle", label: "Хранение" }
+	n7 --- n26
 	n23@{ shape: "circle", label: "Раскрой" }
 	n7 --- n23
 	n23 --- n9
 	n23 --- n10
 	n23 --- n11
 	n22 --- n24["Зависит от варианта защиты меди"]
-	n7
-	n25@{ shape: "circle", label: "Приобретение/хранение" }
-	n7 --- n25@{ shape: "circle", label: "Приобретение" }
-	n26@{ shape: "circle", label: "Хранение" }
-	n7 --- n26
 	n27@{ shape: "circle", label: "Приобретение" }
 	n15 --- n27
 	n28@{ shape: "circle", label: "Хранение" }
 	n15 --- n28
 	n29@{ shape: "circle", label: "Раскрой" }
 	n15 --- n29
-	n30@{ shape: "circle", label: "Нанесение" }
-	n15 --- n30
+	n31@{ shape: "circle", label: "Подготовка заготовки" }
+	n15 --- n31
+	n16 --- n32
+	n32@{ shape: "circle", label: "Приобретение" }
+	n16 --- n38@{ shape: "circle", label: "Хранение" }
+	n39@{ shape: "circle", label: "Подготовка заготовки" }
+	n16 --- n39
+	n15 --- n40@{ shape: "circle", label: "Нанесение" }
+	n41@{ shape: "circle", label: "Нанесение" }
+	n16 --- n41
+	n15 --- n30@{ shape: "circle", label: "Экспонирование" }
+	n15 --- n33@{ shape: "circle", label: "Проявка" }
+	n16 --- n34@{ shape: "circle", label: "Экспонирование" }
+	n16 --- n35@{ shape: "circle", label: "Проявка" }
