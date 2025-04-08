@@ -1,5 +1,4 @@
-# PCB-making
-## Работа с проектом
+# Работа с проектом
 
 ```mermaid
 flowchart
