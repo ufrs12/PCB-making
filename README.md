@@ -5,7 +5,8 @@
 
 ```mermaid
 flowchart
-	n10@{ shape: "stadium", label: "Проект" }
+	n10@{ shape: "stadium", label: "Работа с проектом" }
+		click n10 "https://github.com/ufrs12/PCB-making/blob/main/MD/project/project.md"
 	n10 --- n2["Жесткая"]
 	n10 --- n3["Гибкая"]
 
