@@ -40,4 +40,5 @@ flowchart
 	n18 --- n16
 	n16 --- n1["Трафарет для
 паяльной пасты"]
+		click n1 "https://github.com/ufrs12/PCB-making/blob/main/MD/%20stencil/stencil.md"
 	n16 --- n11["Без трафарета"]
