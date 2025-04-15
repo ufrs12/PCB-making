@@ -2,7 +2,7 @@
 
 ```mermaid
 flowchart
-	n30@{ shape: "circle", label: "Экспонирование" }
+	n30@{ shape: "stadium", label: "Экспонирование" }
 	n30 --- n33["Лазерное"]
 		click n33 "https://github.com/ufrs12/PCB-making/blob/main/MD/expo/laser/laser.md"
 	n30 --- n34["Фотошаблон"]
