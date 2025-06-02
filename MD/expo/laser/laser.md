@@ -1,6 +1,7 @@
 # Лазерное экспонирование
 
 ```mermaid
+flowchart
 n33["Лазерное экспонирование"]
 		click n33 "https://github.com/ufrs12/PCB-making/blob/main/MD/expo/laser/laser.md"
 	n33 --- n36["На базе имеющегося станка с ЧПУ"]
