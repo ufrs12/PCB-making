@@ -7,8 +7,11 @@
 flowchart
 	n10@{ shape: "stadium", label: "Работа с проектом" }
 		click n10 "https://github.com/ufrs12/PCB-making/blob/main/MD/project/project.md"
-	n10 --- n2["Жесткая"]
-	n10 --- n3["Гибкая"]
+	n10 --- n12["Делаем сами"]
+	n10 --- n19["Отдаем в контрактное производство"]
+		click n19 "https://github.com/ufrs12/PCB-making/blob/main/MD/contract/contract.md"
+	n12 --- n2["Жесткая"]
+	n12 --- n3["Гибкая"]
 
 	n2 --- n7["Фольгированный
 стеклотекстолит"]
